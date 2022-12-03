@@ -1,0 +1,61 @@
+* {
+    background-color: yellow;
+    font-family: monospace;
+    font-size: large;
+}
+
+#container {
+    text-align: center;
+}
+
+input {
+    background-color: inherit;
+    color: black;
+    width: 200px;
+    height: 30px;
+}
+
+input:hover {
+    background-color: black;
+    color: yellow;
+    width: 200px;
+    height: 30px;
+}
+
+#resetBtn, #addBtn {
+    height: 40px;
+    width: 60px;
+}
+
+#resetBtn:hover, #addBtn:hover {
+    background-color: black;
+    color: yellow;
+}
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+table, th, td{
+    border: 2px solid black;
+
+}
+
+table {
+    width: 50%;
+    display: none;
+}
+
+#tdiv {
+    display: flex;
+    justify-content: center;
+}
+
+tr {
+    height: 35px;
+}
+
+td {
+    color: black;
+}
